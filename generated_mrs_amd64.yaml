@@ -13,11 +13,11 @@ mrs_uav_deployment:
 mrs_lib:
     ubuntu: [ros-noetic-mrs-lib]
   
-mrs_landing_pad_estimation:
-    ubuntu: [ros-noetic-mrs-landing-pad-estimation]
-  
 mrs_precise_landing_gazebo:
     ubuntu: [ros-noetic-mrs-precise-landing-gazebo]
+  
+mrs_landing_pad_estimation:
+    ubuntu: [ros-noetic-mrs-landing-pad-estimation]
   
 mrs_precise_landing:
     ubuntu: [ros-noetic-mrs-precise-landing]
@@ -58,29 +58,29 @@ mrs_uav_status:
 mrs_serial:
     ubuntu: [ros-noetic-mrs-serial]
   
-mrs_circle_flier:
-    ubuntu: [ros-noetic-mrs-circle-flier]
-  
 mrs_tf_mirror:
     ubuntu: [ros-noetic-mrs-tf-mirror]
   
-mrs_tf_connector:
-    ubuntu: [ros-noetic-mrs-tf-connector]
-  
-mrs_multireconfigure:
-    ubuntu: [ros-noetic-mrs-multireconfigure]
-  
-mrs_euler_counter_example:
-    ubuntu: [ros-noetic-mrs-euler-counter-example]
+mrs_tf_estimator:
+    ubuntu: [ros-noetic-mrs-tf-estimator]
   
 mrs_camera_republisher:
     ubuntu: [ros-noetic-mrs-camera-republisher]
   
+mrs_circle_flier:
+    ubuntu: [ros-noetic-mrs-circle-flier]
+  
+mrs_euler_counter_example:
+    ubuntu: [ros-noetic-mrs-euler-counter-example]
+  
+mrs_multireconfigure:
+    ubuntu: [ros-noetic-mrs-multireconfigure]
+  
 mrs_sensor_info:
     ubuntu: [ros-noetic-mrs-sensor-info]
   
-mrs_tf_estimator:
-    ubuntu: [ros-noetic-mrs-tf-estimator]
+mrs_tf_connector:
+    ubuntu: [ros-noetic-mrs-tf-connector]
   
 mrs_tf_reconfigure:
     ubuntu: [ros-noetic-mrs-tf-reconfigure]
@@ -121,11 +121,11 @@ mrs_octomap_server:
 mrs_octomap_planner:
     ubuntu: [ros-noetic-mrs-octomap-planner]
   
-mrs_robofly_example:
-    ubuntu: [ros-noetic-mrs-robofly-example]
-  
 mrs_robofly_core:
     ubuntu: [ros-noetic-mrs-robofly-core]
+  
+mrs_robofly_example:
+    ubuntu: [ros-noetic-mrs-robofly-example]
   
 mrs_uav_dji_tello_api:
     ubuntu: [ros-noetic-mrs-uav-dji-tello-api]
@@ -202,11 +202,11 @@ mrs_mins_core:
 mrs_uav_core:
     ubuntu: [ros-noetic-mrs-uav-core]
   
-mrs_uav_system:
-    ubuntu: [ros-noetic-mrs-uav-system]
-  
 mrs_uav_system_full:
     ubuntu: [ros-noetic-mrs-uav-system-full]
+  
+mrs_uav_system:
+    ubuntu: [ros-noetic-mrs-uav-system]
   
 uvdar_gazebo_plugin:
     ubuntu: [ros-noetic-uvdar-gazebo-plugin]
