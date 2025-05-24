@@ -1,20 +1,20 @@
-rosgraph:
-    ubuntu: [ros-noetic-rosgraph]
-  
 xmlrpcpp:
     ubuntu: [ros-noetic-xmlrpcpp]
   
 roslz4:
     ubuntu: [ros-noetic-roslz4]
   
+rosgraph:
+    ubuntu: [ros-noetic-rosgraph]
+  
+roscpp:
+    ubuntu: [ros-noetic-roscpp]
+  
 rosmaster:
     ubuntu: [ros-noetic-rosmaster]
   
 rosparam:
     ubuntu: [ros-noetic-rosparam]
-  
-roscpp:
-    ubuntu: [ros-noetic-roscpp]
   
 rosout:
     ubuntu: [ros-noetic-rosout]
@@ -28,14 +28,14 @@ roslaunch:
 rostest:
     ubuntu: [ros-noetic-rostest]
   
-rosbag_storage:
-    ubuntu: [ros-noetic-rosbag-storage]
+topic_tools:
+    ubuntu: [ros-noetic-topic-tools]
   
 message_filters:
     ubuntu: [ros-noetic-message-filters]
   
-topic_tools:
-    ubuntu: [ros-noetic-topic-tools]
+rosbag_storage:
+    ubuntu: [ros-noetic-rosbag-storage]
   
 rosbag:
     ubuntu: [ros-noetic-rosbag]
@@ -58,11 +58,11 @@ roswtf:
 ros_comm:
     ubuntu: [ros-noetic-ros-comm]
   
-mav_state_machine_msgs:
-    ubuntu: [ros-noetic-mav-state-machine-msgs]
-  
 mav_msgs:
     ubuntu: [ros-noetic-mav-msgs]
+  
+mav_state_machine_msgs:
+    ubuntu: [ros-noetic-mav-state-machine-msgs]
   
 mav_system_msgs:
     ubuntu: [ros-noetic-mav-system-msgs]
@@ -88,20 +88,17 @@ tf2_msgs:
 tf2:
     ubuntu: [ros-noetic-tf2]
   
-tf2_bullet:
-    ubuntu: [ros-noetic-tf2-bullet]
-  
 tf2_py:
     ubuntu: [ros-noetic-tf2-py]
+  
+tf2_bullet:
+    ubuntu: [ros-noetic-tf2-bullet]
   
 tf2_eigen:
     ubuntu: [ros-noetic-tf2-eigen]
   
 tf2_ros:
     ubuntu: [ros-noetic-tf2-ros]
-  
-tf2_kdl:
-    ubuntu: [ros-noetic-tf2-kdl]
   
 tf2_tools:
     ubuntu: [ros-noetic-tf2-tools]
@@ -112,29 +109,32 @@ tf2_sensor_msgs:
 tf2_geometry_msgs:
     ubuntu: [ros-noetic-tf2-geometry-msgs]
   
-geometry2:
-    ubuntu: [ros-noetic-geometry2]
+tf2_kdl:
+    ubuntu: [ros-noetic-tf2-kdl]
   
 test_tf2:
     ubuntu: [ros-noetic-test-tf2]
   
-nimbro_net_monitor:
-    ubuntu: [ros-noetic-nimbro-net-monitor]
-  
-nimbro_cam_transport:
-    ubuntu: [ros-noetic-nimbro-cam-transport]
-  
-nimbro_log_transport:
-    ubuntu: [ros-noetic-nimbro-log-transport]
+geometry2:
+    ubuntu: [ros-noetic-geometry2]
   
 nimbro_service_transport:
     ubuntu: [ros-noetic-nimbro-service-transport]
   
-nimbro_tf_throttle:
-    ubuntu: [ros-noetic-nimbro-tf-throttle]
+nimbro_log_transport:
+    ubuntu: [ros-noetic-nimbro-log-transport]
   
 nimbro_topic_transport:
     ubuntu: [ros-noetic-nimbro-topic-transport]
+  
+nimbro_cam_transport:
+    ubuntu: [ros-noetic-nimbro-cam-transport]
+  
+nimbro_tf_throttle:
+    ubuntu: [ros-noetic-nimbro-tf-throttle]
+  
+nimbro_net_monitor:
+    ubuntu: [ros-noetic-nimbro-net-monitor]
   
 nimbro_network:
     ubuntu: [ros-noetic-nimbro-network]
@@ -142,20 +142,20 @@ nimbro_network:
 ov_core:
     ubuntu: [ros-noetic-ov-core]
   
-ov_eval:
-    ubuntu: [ros-noetic-ov-eval]
-  
 ov_init:
     ubuntu: [ros-noetic-ov-init]
+  
+ov_eval:
+    ubuntu: [ros-noetic-ov-eval]
   
 ov_msckf:
     ubuntu: [ros-noetic-ov-msckf]
   
-mavros_msgs:
-    ubuntu: [ros-noetic-mavros-msgs]
-  
 libmavconn:
     ubuntu: [ros-noetic-libmavconn]
+  
+mavros_msgs:
+    ubuntu: [ros-noetic-mavros-msgs]
   
 mavros:
     ubuntu: [ros-noetic-mavros]
