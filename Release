@@ -1,0 +1,19 @@
+Date: Sat, 05 Jul 2025 18:53:38 +0000
+Label: testing
+Origin: ctu-mrs
+MD5Sum:
+ 1da84d2831d434f5729cfbf4cd408a9f           220335 Packages
+ 10dcd9f2181911ff26e9e23f810d9c78            45288 Packages.gz
+ b6fe6aba5902e597675d7c0ba4c23405               69 Release
+SHA1:
+ 4d9924bfb1c754a6caf515dda6f7e56d384fcbf2           220335 Packages
+ 458859b59ebc7ced1949d54506055fe874cafb03            45288 Packages.gz
+ 72ce8b9eae354e26f81545dc02ee7ccc16f1ee46               69 Release
+SHA256:
+ 32f2e31975bdf2dcaa2c1ca295c3f8e643f58e90db38cd4d95b4e7fd1d4da03e           220335 Packages
+ 24e3efdda5f9a5edc3b5232a83b7d0404842444003674ee0bd9495cc5a4bc79b            45288 Packages.gz
+ 820ee11afd1e0333f895a5f7f76a57d9d287d420a8659b14f3622d32270a209d               69 Release
+SHA512:
+ fd87c536d4a3460d8c077ae1885dd97c2a816fbb89e843946d66573d06f620486ddae3b70e8ef45e8d98476b28c9095ac72c56ecc8a24c95cdc0dc4ec1af24f8           220335 Packages
+ eba52268ed6f2dbca0ed84718424a0395aba7a442f4088d95b5074a166b81bc603218b19afe9a212c65573e8f255d65a9c1fe008df34e56b646fbd781c028166            45288 Packages.gz
+ d529f044a5bc9ae9725615c5c0b75e83b6c7fca5411d363e9bcb4accc42cd11b1a0213de755dcb46e1c25fe3756c571d29481210c587e4f0930a77d318b88dbf               69 Release
