@@ -7,7 +7,7 @@ trap 'echo "$0: \"${last_command}\" command failed with exit code $?"' ERR
 
 echo "$0: Adding MRS Testing PPA repository"
 
-sudo apt-get -y install curl gpg dpkg-dev
+sudo apt-get --no-install-recommends -y install curl gpg dpkg-dev
 
 ARCH=$(dpkg-architecture -qDEB_HOST_ARCH)
 
@@ -17,6 +17,6 @@ sudo curl -s --compressed -o /etc/apt/preferences.d/ctu-mrs-testing-preferences 
 sudo curl -s --compressed -o /etc/ros/rosdep/sources.list.d/ctu-mrs-testing.list "https://ctu-mrs.github.io/ppa-testing/ctu-mrs-$ARCH.list"
 sudo apt-get -y update
 
-rosdep update
+rosdep update --include-eol-distros
 
 echo "$0: Finished adding MRS Testing PPA repository"
