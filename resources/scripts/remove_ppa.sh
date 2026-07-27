@@ -7,6 +7,6 @@ sudo rm /etc/apt/preferences.d/ctu-mrs-testing-preferences
 sudo rm /etc/ros/rosdep/sources.list.d/ctu-mrs-testing.list
 
 sudo apt-get update -o Acquire::Retries="4"
-rosdep update
+rosdep update --include-eol-distros --rosdistro=noetic
 
 echo "$0: Finished removing MRS Testing PPA repository"
