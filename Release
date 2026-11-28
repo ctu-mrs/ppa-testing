@@ -1,0 +1,19 @@
+Date: Sat, 28 Nov 2026 06:10:38 +0000
+Label: testing
+Origin: ctu-mrs
+MD5Sum:
+ 42e26c3f92d32eff4c117096b73638c8           227734 Packages
+ 6478ef4da51e2899241592b33d03165d            46834 Packages.gz
+ 33587cbe08aa89d0cb2502f3ef06db19               69 Release
+SHA1:
+ 9acd59c8f28e0ee929f0f2f8a488ba8395d25d5a           227734 Packages
+ fd07e779c04075c82160925e76274e6117f1c87c            46834 Packages.gz
+ 15b2cd02a6f22af4d92f354437440a0da8aa53e6               69 Release
+SHA256:
+ 14c952c84478c59bb72e7997b455a9a3f3d05f9aafaf2e48f46c1bdb9fbf65d1           227734 Packages
+ 715de81dbced6966c8c23da990facb4fb45d4e206055e34ebf8c08cea4b6ba0f            46834 Packages.gz
+ 322babae2a972058979047603a38173b04a8ff494dfe8396434842c9b9357710               69 Release
+SHA512:
+ 2d8b66f0d4ab79b4adaa01b04eba107910bf25071820b97c06b92e9a81ae91255149cbaa3d979fac570e4ec8f9d90cfe765c3c764a967fefa501d007bf516f12           227734 Packages
+ bb309136abec4a019d0c80eb41d8ea64527daef52fa77a453c674db7143cf5237ec07fcbdefafe31e4a5defd7fb4dbfe2712043be8c489f42d430df05231efe2            46834 Packages.gz
+ b30865cc5f33bb69384744a9370bfb1bb415e9958487fbe62760dccf6eb3ee61fda2a23c0e591b13dfef026b651fa1c3c897e4b8cf5962c2e0e31e526579c9c2               69 Release
